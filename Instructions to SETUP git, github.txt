@@ -1,0 +1,35 @@
+Firstly, Install Git
+Windows: Download from git-scm.com
+after installation of the setup file make sure to open it and click next until it is fully installed
+to verify if its installed check it in your start menu
+
+Secondly, download VS code you can just search it in google by typing download VS code
+then same step on setting up the app just click next until it is installed
+
+Now to configure your git just search CODEMY on google and go to the GIT section and copy the command codes to set up git
+like for example: git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+then create your local repo and follow the instruction said to the website of CODEMY
+like inputting this code in the GITBASH command prompt make sure to change the command prompt from cmd to bash
+then input these codes to create your own repository
+mkdir my-project
+cd my-project
+git init
+
+then add commit files by inputting these codes
+git add .
+git commit -m "Initial commit"
+
+now go sign in to your github account then 
+press Create GitHub Repo
+
+Go to github.com, click "+" → New repository
+
+Name it and click "Create"
+
+then copy the link of that website for exammple:
+git remote add origin https://github.com/yourusername/your-repo.git
+then lastly input these code git push -u origin main
+
+thats it now you can add any files of your own then just sync it to your account
